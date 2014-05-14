@@ -1,0 +1,21 @@
+img.resize{
+    width:500px; /* you can use % */
+    height: auto;
+}
+
+img.thumbsize{
+    width:115px; /* you can use % */
+    height: auto;
+}
+
+.thumbnails {
+    border: 5px solid #000000;
+	background:#ffffff;
+    float: left;
+    font-size: 15px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    text-align: center;
+    width: 250px;
+}

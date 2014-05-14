@@ -1,0 +1,129 @@
+#button{
+	float:left;
+	width:80px;
+	background-color:black;
+	border-style: double;
+	border-color: white;
+	border-width:5px;
+	border-radius:10px;
+	color:white;
+	text-decoration: none;
+	text-align:center;
+}
+
+/* a links
+-------------------------------------------------------- 
+
+*/
+
+a.buttonLink {
+	text-decoration: none;
+	color: silver;
+	outline: 0;
+}
+
+a.buttonLink:link {
+	
+}
+
+a.buttonLink:visited {
+	
+}
+
+a.buttonLink:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:buttonLink:active {
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+#productinfo{
+	width:500px;
+	padding:25px;
+	clear:both;
+	padding-top:10px;
+	
+}
+
+
+#top{
+	width: 100%;
+}
+
+hr{
+	margin-top:20px;
+	width: 100%;
+}
+
+
+/* Shopping cart and form buttons
+-------------------------------------------------------
+*/
+#button{
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:black;
+	border-style: double;
+	border-color: white;
+	border-width:5px;
+	border-radius:10px;
+	color:white;
+	text-decoration: none;
+	text-align:center;
+	overflow:auto;
+
+	}
+	
+	
+#shoppingIcon{
+	
+	width:30px;
+	border-radius:20px;
+}
+
+#shoppingIcon:hover{
+	
+	background-color:black;
+	
+}
+
+#button:hover {
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	width:80px;
+	height:30px;
+	background-color:white;
+	border-style: double;
+	border-color: black;
+	border-width:5px;
+	border-radius:10px;
+	color:black;
+	text-decoration: none;
+	text-align:center;
+	overflow:auto;
+
+}
+
+#movieimg{
+	
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+}
+
+
+.cartIconImg{
+	
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+	border-radius:10px;
+}
+

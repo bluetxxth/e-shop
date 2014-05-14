@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="127px" height="72.5px" viewBox="0 0 127 72.5" enable-background="new 0 0 127 72.5" xml:space="preserve">
+<g>
+	
+		<rect x="80.009" y="44.414" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -11.6602 78.9906)" fill="#CCB985" stroke="#999999" stroke-miterlimit="10" width="19.018" height="18.313"/>
+	
+		<rect x="80.713" y="13.422" transform="matrix(0.7071 -0.7071 0.7071 0.7071 10.4602 70.4093)" fill="#CCB985" stroke="#999999" stroke-miterlimit="10" width="19.017" height="18.313"/>
+	
+		<rect x="97.617" y="28.917" transform="matrix(0.7071 -0.7071 0.7071 0.7071 4.4525 86.8977)" fill="#CCB985" stroke="#999999" stroke-miterlimit="10" width="19.018" height="18.313"/>
+</g>
+<text transform="matrix(1 0 0 1 22.3379 50.9673)" fill="#917A7A" stroke="#2E2222" stroke-miterlimit="10" font-family="'TektonPro-Bold'" font-size="36">Me</text>
+</svg>

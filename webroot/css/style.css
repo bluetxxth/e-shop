@@ -1,0 +1,828 @@
+/* import style for forms
+-------------------------------------------------------- 
+
+*/
+@import url(tables.css);
+@import url(user.css);
+@import url(thumbnails.css);
+@import url(admin.css);
+
+
+/* General elements
+--------------------------------------------
+*/
+body {
+	color: #333;
+	font-family: arial, sans-serif;
+
+}
+
+/*
+Layout of the main page elements 
+--------------------------------------------------
+ */
+#pagewrapper {
+	width: auto;
+	padding: 10px;
+}
+
+#menuWrappper{
+	width: auto;
+	padding: 10px;
+}
+
+
+/*
+Table with movies
+----------------------------------------------------------
+*/
+table {
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+img {
+	border: 0;
+}
+
+/* No border around linked images */
+
+/* figure & figcaption
+-------------------------------------------------------- 
+*/
+article figure {
+	border: 2px solid #000000;
+	padding: 4px;
+	margin: 1em;
+	text-align: center;
+	width: 200px;
+	height: auto;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: smaller;
+	padding-left: 1em;
+}
+
+figure.right {
+	margin-right: 0;
+}
+
+figure.top {
+	margin-top: 0;
+}
+
+figure.fullwidth {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* resize images */
+article figure img {
+	width: 100%;
+	height: auto;
+}
+
+/* html5 elements
+-------------------------------------------------------- 
+
+*/
+header,footer,nav,article,section,aside,figure,figcaption {
+	display: block;
+}
+
+/* a links
+-------------------------------------------------------- 
+
+*/
+a {
+	color: inherit;
+	outline: 0;
+}
+
+a:link {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: #5C0A0A;
+}
+
+a:active {
+	
+}
+
+/* Navigation bar 1
+-----------------------------------------------------
+*/
+.navbar1 {
+	position: absolute;
+	display: block;
+	background-color: #000000;
+	font-family: Verdana;
+	padding: 0.5em;
+	bottom: 0;
+	right: 0;
+	padding:15px;
+}
+
+.navbar1 a {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0.2em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar1 a:hover {
+	background-color: #ffffff;
+	padding: 0.5em 0.2em 0.5em 0.2em;
+	border-style: double;
+	border-width:3px;
+	border-color:black;
+	border-radius:10px;
+	color:black;
+}
+
+.navbar1 a.selected {
+	background-color: #fff;
+	padding: 0.3em 0.2em 0.5em 0.2em;
+	color: #333;
+	
+	border-style: double;
+	border-width:3px;
+	border-color:black;
+	border-radius:10px;
+}
+
+/*Navigation bar 2
+--------------------------------------------------------
+*/
+.navbar2 {
+	display: block;
+	background-color: #000000;
+	font-family: Verdana;
+	padding: 0.5em;
+	float:left;
+	
+}
+
+.navbar2 a {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0.2em;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.navbar2 a:hover {
+    background-color: #ffffff;
+	color: #000000;
+	padding: 0.2em;
+	text-decoration: none;
+	
+	padding: 0.5em 0.2em 0.5em 0.2em;
+	
+	border-style: double;
+	border-width:3px;
+	border-color:black;
+	border-radius:10px;
+}
+
+.navbar2 a.selected {
+	background-color: #fff;
+	padding: 0.3em 0.2em 0.5em 0.2em;
+	color: #333;
+	
+	border-style: double;
+	border-width:3px;
+	border-color:black;
+	border-radius:10px;
+}
+
+/* Menu Holder
+------------------------------------------------------------
+*/
+#menuHolder {
+	background-color: #000000;
+	position: absolute;
+	height: 55px;
+	width: 350px;
+	bottom: 0;
+	right: 0;
+	border-top-left-radius: 50px;
+	
+}
+
+/* Search field
+------------------------------------------------------------
+*/
+#searchHolder {
+	background-color: #000000;
+	float: right;
+	height: 27pt;
+	width: 150px;
+	bottom: 0;
+	right: 0;
+}
+
+.inpt {
+	background-color: #ffffff;
+	height: 15pt;
+	float: right;
+	bottom:150px;
+
+}
+
+#searchwrapper{
+	padding: 0.5em;
+	height:30px;
+	background-color:#000000;
+	
+}
+
+/*middle part of the header*/
+#top {
+	background-color: #060603;
+	height: 70pt;
+}
+
+/* Layout for header
+-------------------------------------------------
+ */
+#header {
+	position: relative;
+	margin-bottom: 0px;
+	height: 100px;
+	background-color: #ffffff;
+	/*background-image: url('../img/textures/theatre-stage_adjusted.jpg');*/
+	border-width: 5px;
+	border-style: solid;
+	border-color: #000000 #000000 #F9F907 ;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width:auto;
+}
+
+
+
+/* 
+the header with navigation to related links 
+----------------------------------------------------------
+*/
+header#above {
+	font-family: arial, helvetica, sans-serif;
+	border-bottom: 0px solid #E6E6E6;
+	margin-bottom: 0px;
+	color: #000;
+	background-color: #ECECEC;
+}
+
+/**
+ * Layout for navigation bar
+ */
+#navbar {
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+
+/*
+middle part of the header
+--------------------------------------------------------
+*/
+#top {
+	background-color: #060603;
+	height: 20pt;
+}
+
+.sitetitle {
+	position: absolute;
+	top: 20px;
+	left: 200px;
+	font-size: 60px;
+}
+
+
+.siteslogan {
+	position: absolute;
+	top: 75px;
+	left: 250px;
+	font-style: italic;
+	color: #666;
+}
+
+.sitelogo {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	font-style: italic;
+	color: #666;
+}
+
+.footer{
+	
+	font-size: 110px;
+
+}
+.sitesloganFooter{
+	clear:both;
+	top: 70px;
+	left: 400px;
+	font-style: italic;
+	color: #666;
+	font-size:25px;
+}
+
+.button{
+	
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	width:90px;
+	height:30px;
+	background-color:black;
+	border-style: double;
+	border-color: white;
+	border-width:5px;
+	border-radius:10px;
+	color:white;
+	text-decoration: none;
+	text-align:center;
+	overflow:auto;
+
+	}
+
+.button:hover {
+	
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	width:90px;
+	height:30px;
+	background-color:white;
+	border-style: double;
+	border-color: black;
+	border-width:5px;
+	border-radius:10px;
+	color:black;
+	text-decoration: none;
+	text-align:center;
+	overflow:auto;
+
+}
+
+/*Transparent roll-over image
+----------------------------------------------
+*/
+img:hover{
+opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/*
+ Layout for main
+ --------------------------------------------------------
+ */
+#main {
+	position:relative;
+	margin-top: 5px;
+	min-height: 30em;
+	width: auto;
+	margin-bottom: 5px;
+	height:auto;
+	overflow:auto; 
+}
+
+#mainWrapper {
+	width:100%;
+	margin: auto;
+	padding: 10px;
+
+}
+
+.categories{
+	background-color: #ffffff ;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #000000;
+	border-radius: 20px;
+	overflow:auto; 
+	padding:5px;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top: 30px;
+    text-align:center;
+    width:auto;
+
+	
+}
+
+#mainUsers{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	background-color: #ffffff;
+	height:150px;
+}
+
+#mainMovies{
+
+	margin:auto;
+	width: 800px;
+	text-align:center;
+	height:100%;
+	
+}
+
+
+.movieItems{
+	margin: auto; 
+	display: block;
+	float:left;
+	width: 170px;
+	background-color: #ffffff;
+	padding:10px;
+
+}
+
+
+
+/*
+.movieItems{
+	margin: auto 5em; 
+	display: block;
+	text-align:center;
+	float:left;
+	width: 90%;
+	overflow:auto;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 5px;
+	
+}
+*/
+
+
+#movieItems img{
+		border: 1px solid #000000;
+}
+
+#mainPost{
+
+	width: 90%;
+	text-align:center;
+}
+
+.postItems{
+	
+	background-color: #ffffff;
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+	border: 1px solid #000000;
+	border-radius:10px; 
+	margin-bottom:30px;
+	padding: 25px;
+	box-shadow: 10px 10px 5px #888;
+
+}
+
+
+.more a{
+	clear: both;
+
+}
+
+.categories img{
+	border-width:1px;
+	border-color:black;
+	border-style:solid;
+}
+
+
+#userWrapper {
+	margin: auto;
+	width: 50%;
+}
+
+#categoryWrapper {
+	margin: auto;
+	width: 80%;
+}
+
+#category {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.userItems{
+	
+    float:left;
+    text-align:center;
+	overflow:auto;
+	min-height: 40px;
+	background-color: #ffffff;
+	padding:20px;
+
+}
+
+#mainUsers{
+
+	margin:auto;
+	width: 800px;
+	text-align:center;
+	height:100%;
+	
+}
+
+
+#userItems img{
+	border: 1px solid #000000;
+}
+
+
+#synopsis{
+	
+	text-align:left;
+	word-wrap:break-word;	
+}
+
+
+/*Div to hold the table with results
+------------------------------------------------
+*/
+#tableWrapper {
+	clear: both;
+	width: 350px;
+	height: 350px;
+}
+
+/*Center a table wihin a div
+--------------------------------------------
+*/
+table {
+	margin: 0 auto; /* or margin: 0 auto 0 auto */
+}
+
+/*Div for pagination details
+----------------------------------------
+*/
+.pagination {
+	clear:both;
+	width: 960px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align:center;
+
+}
+
+/* Div for panel on left control panel
+-----------------------------------------------
+*/
+#dbControlLeft {
+	float: left;
+	border: 1px solid #0A335C;
+}
+
+/* Div for panel on right control panel
+-----------------------------------------------
+*/
+#dbControlRight {
+	float: right;
+	border: 1px solid #0A335C;
+}
+
+/*Div for db control panel
+-----------------------------------------------
+*/
+#dbControl {
+	width: 960px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background: hsla(0, 1%, 88%, 0.6);
+	padding: 10px 40px 30px;
+	border: 1px solid #0A335C;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+}
+
+/*Div for dfieldset
+-----------------------------------------------
+*/
+fieldset {
+	margin-top: 30px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+/* background
+----------------------------------------------------------
+*/
+
+/* body{background:url(../img/textures/blackbrick.jpg) left top repeat-x;} */
+body {
+	background-image: url('../img/backgroundpics/reel.jpg');
+	background-size: 3000px;
+	background-color: #ffffff;
+	background-repeat:no-repeat;
+	background-position:center;
+	/*background-repeat: repeat-y;*/
+}
+
+/*Frap a rounded square around div content
+----------------------------------------------------------
+*/
+div#main {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	min-height:700px;
+	/*background: hsla(0, 1%, 88%, 0.6);*/
+	background: hsla(0, 1%, 100%, 0.6);
+	padding: 10px 40px 30px;
+	/*border: 1px solid #0A335C;*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+
+}
+
+/*
+ Layout for footer
+ ------------------------------------------------------
+ */
+#footerwrapper {
+	height: 50px;
+}
+
+#footer1 {
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+	background-color: #000000;
+}
+
+/*
+#footer2 {
+ height:70px;
+ background-color:#000000;
+ text-align: center;
+ color: #fffff0;
+}
+*/
+#footer3 {
+	height: 150px;
+	background-color: #000000;
+	text-align: center;
+	color: #000000;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-width: 5px; 
+	border-style : solid;
+	border-color: #000000 #000000 #000000;
+	background-color: #ffffff;
+	background-size: 100px 100px;
+	border-style: solid;
+}
+
+footer#bottom3 {
+	font: italic 0.8em Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: silver;
+	background-color: black;
+	width: 100%;
+	height: 30pt;
+}
+
+/*Footer byline footer box shadow*/
+.box {
+	width: 80%;
+	height: 100px;
+	background: #949489;
+	margin-left: 50px;
+	margin-right: 30px;
+}
+
+.shadow {
+	box-shadow: 10px 100px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	border: dotted 1px;
+	border-radius: 20px;
+}
+
+/* article byline & signature
+-------------------------------------------------------- 
+
+*/
+footer.byline {
+	clear: both;
+	border-top: 1px dashed #999999;
+	margin-top: 2em;
+	padding: 1em;
+	color: #555555;
+	font-size: smaller;
+	font-style: italic;
+}
+
+.sitefooter {
+	color: #666;
+}
+
+/* Misc classes
+-------------------------------------------------------- 
+
+*/
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.justify,.justify-para p {
+	text-align: justify;
+}
+
+.quiet {
+	color: #666;
+}
+
+.loud {
+	color: #000;
+}
+
+.small {
+	font-size: .8em;
+	margin-bottom: 1.875em;
+	line-height: 1.875em;
+}
+
+.large {
+	font-size: 1.2em;
+	line-height: 2.5em;
+	margin-bottom: 1.25em;
+}
+
+.hide {
+	display: none;
+}
+
+/* Use a .box to create a padded box inside a column. */
+.box {
+	padding: 1.5em;
+	margin-bottom: 1.5em;
+	background: #F2F2F2;
+}
+
+/* Border on right hand side of a column. */
+.border {
+	padding-right: 2em;
+	padding-left: 2em;
+	margin-left: 55pt;
+	margin-right: 5px;
+}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+	background: #33331A;
+	color: #757571;
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin: 0 0 1.45em;
+	border: none;
+}
+
+/* Display code in a block */
+blockquote.code {
+	font-family: monospace;
+	white-space: pre;
+	background: #F2F2F2;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0.5em;
+	border: 1px solid #999;
+	overflow: auto;
+}

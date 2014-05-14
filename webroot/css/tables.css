@@ -1,0 +1,67 @@
+/* Tables 
+-------------------------------------------------------------- */
+table {
+	margin-bottom: 1.4em;
+
+}
+
+th {
+	font-weight: bold;
+	background: black;
+	color: white;
+	
+}
+
+th,td,caption {
+	padding: 4px 10px 4px 5px;
+}
+
+
+tbody tr:nth-child(even) td {
+	background: #E1DAD4;
+		
+}
+
+tbody tr:hover td {
+	background: #ffffff;
+}
+
+tfoot {
+	font-style: italic;
+}
+
+caption {
+	text-align: left;
+	background: #B1AA96;
+}
+
+
+#total{
+
+	color:black;
+	margin-bottom:50px;
+
+}
+
+
+#shoppingtable{
+	float:left;
+	margin:auto;
+	width: 100%;
+}
+
+
+#totals{
+	clear:both;
+	margin-bottom: 1.4em;
+	margin:auto;
+	width: 100%;
+	
+}
+
+#shoppingActions{
+	clear:both;
+	margin:auto;
+
+}
+
